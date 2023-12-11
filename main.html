@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Ünnepi Táblázat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    table td {
+      width: 100px;
+      height: 100px;
+      border: 2px solid #fff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background-color: #e0e0e0;
+    }
+    table td:hover {
+      background-color: #ccc;
+    }
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kalendárium</h1>
+  <table id="grid"></table>
+  <script src="main.js"></script>
+</body>
+</html>
